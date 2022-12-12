@@ -1,0 +1,72 @@
+body {
+    margin: 20px;
+    font-family: Palatino, serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 5px 50px;
+    border-bottom: 3px solid #824c71;
+    border-right: 3px solid #824c71;
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: .8s;
+    transition: all .5s;
+}
+
+.avatar:hover {
+    border: 3px solid #319177;
+    
+}
+
+.card {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: #af3800;
+    color: #f7f3f6;
+    border-bottom: 6px solid #824c71;
+    border-right: 6px solid #824c71;
+    text-shadow: 0 0 3px black;
+    border-radius: 5px 50px;
+    transition: all 1s;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: .2s;
+}
+
+.card:hover {
+    box-shadow: 5px 4px 5px #319177;
+}
+
+.text {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+
+@keyframes fade-in {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+.name, .role, .loc {
+    transition: all .5s ease-out;
+    
+}
+
+.name:hover, .role:hover, .loc:hover {
+    font-size: 20px;
+    text-shadow: 2px 2px #319177;
+}
