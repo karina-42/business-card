@@ -1,7 +1,16 @@
-# co3104b33942260debfcaf559
-Business card created by following the steps outlined in Scrimba's 2nd Module of the Frontend Developer Career Path
+# My business card
+Business card created by following the steps outlined in Scrimba's 2nd Module of the Frontend Developer Career Path.
+
+## View it here: [my business card](https://karina-dev-business-card.netlify.app/)
 
 I personalized it by changing the color palette and borders, and adding hover effects and animations.
+
+## Technologies
+* HTML5
+* CSS3
+
+## Lessons learned
+I leanred how to make an interactive design without the use of JavaScript.
 
 ## About Scrimba
 
