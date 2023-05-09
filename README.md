@@ -1,6 +1,8 @@
 # My business card
 Business card created by following the steps outlined in Scrimba's 2nd Module of the Frontend Developer Career Path.
 
+![business card](https://res.cloudinary.com/dslxa2yhi/image/upload/v1683598745/portfolioReadmeScreenshots/business-card_ooqusu.png)
+
 ## View it here: [my business card](https://karina-dev-business-card.netlify.app/)
 
 I personalized it by changing the color palette and borders, and adding hover effects and animations.
